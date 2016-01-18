@@ -1,0 +1,10 @@
+{
+    "name": "dinard/composer-test",
+    "require": {
+      "php": ">=5.4.0",
+      "lib-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {"Dinard\\Composer\\": "src/"}
+    }
+}
